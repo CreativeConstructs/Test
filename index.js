@@ -15,7 +15,7 @@ function Shout(){
 // Setting our cookie
 function setRank(){
     noblox.setRank(groupId, userId, rankName)
-    console.log(`Ranked ${noblox.getUsernameFromId(userId)} to ${rankName}`)
+    console.log(`Ranked ${noblox.getUsernameFromId(userId)} to ${rankName}!`)
 }
 
 noblox.setCookie(cookie).then(function(){ //cookie log in from json
