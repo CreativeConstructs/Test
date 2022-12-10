@@ -4,9 +4,9 @@ const dotenve = require('dotenv').config()
 const cookie = process.env.COOKIE
 //VARIABLES
 var groupId = 15146559
-var message = "TESTING LOL :D"
-var userId = 112647740
-var rankName = "Notable Fan"
+var message = "JK LOL"
+var userId = 436670185
+var rankName = "Founders"
 
 function Shout(){
     noblox.shout(groupId, message)
