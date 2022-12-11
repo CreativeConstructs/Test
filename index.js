@@ -1,5 +1,6 @@
 const noblox = require('noblox.js') // getting noblox module
 const dotenve = require('dotenv').config()
+const koa = require('koa')
 
 const cookie = process.env.COOKIE
 //VARIABLES
